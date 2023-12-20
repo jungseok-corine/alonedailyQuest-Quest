@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EE2EED2B3312B800818771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EEC2B3312B800818771 /* AppDelegate.swift */; };
+		99EE2EEF2B3312B800818771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EEE2B3312B800818771 /* SceneDelegate.swift */; };
+		99EE2EF12B3312B800818771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EF02B3312B800818771 /* ViewController.swift */; };
+		99EE2EF42B3312B800818771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2EF22B3312B800818771 /* Main.storyboard */; };
+		99EE2EF62B3312BA00818771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2EF52B3312BA00818771 /* Assets.xcassets */; };
+		99EE2EF92B3312BA00818771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2EF72B3312BA00818771 /* LaunchScreen.storyboard */; };
+		99EE2F042B33134500818771 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F032B33134500818771 /* QuestViewController.swift */; };
+		99EE2F062B33135D00818771 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F052B33135D00818771 /* QuestView.swift */; };
+		99EE2F082B33136A00818771 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F072B33136A00818771 /* Quest.swift */; };
+		99EE2F0A2B33137500818771 /* QuestListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F092B33137500818771 /* QuestListManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99EE2EE92B3312B800818771 /* AloneDailyQuest-QuestTestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AloneDailyQuest-QuestTestUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE2EEC2B3312B800818771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99EE2EEE2B3312B800818771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99EE2EF02B3312B800818771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99EE2EF32B3312B800818771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99EE2EF52B3312BA00818771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EE2EF82B3312BA00818771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99EE2EFA2B3312BA00818771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EE2F032B33134500818771 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
+		99EE2F052B33135D00818771 /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		99EE2F072B33136A00818771 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		99EE2F092B33137500818771 /* QuestListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EE2EE62B3312B800818771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EE2EE02B3312B800818771 = {
+			isa = PBXGroup;
+			children = (
+				99EE2EEB2B3312B800818771 /* AloneDailyQuest-QuestTestUI */,
+				99EE2EEA2B3312B800818771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EE2EEA2B3312B800818771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EE2EE92B3312B800818771 /* AloneDailyQuest-QuestTestUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EE2EEB2B3312B800818771 /* AloneDailyQuest-QuestTestUI */ = {
+			isa = PBXGroup;
+			children = (
+				99EE2EEC2B3312B800818771 /* AppDelegate.swift */,
+				99EE2EEE2B3312B800818771 /* SceneDelegate.swift */,
+				99EE2F022B33130500818771 /* Models */,
+				99EE2F012B3312FF00818771 /* Views */,
+				99EE2F002B3312F700818771 /* Controllers */,
+				99EE2EF22B3312B800818771 /* Main.storyboard */,
+				99EE2EF02B3312B800818771 /* ViewController.swift */,
+				99EE2EF52B3312BA00818771 /* Assets.xcassets */,
+				99EE2EF72B3312BA00818771 /* LaunchScreen.storyboard */,
+				99EE2EFA2B3312BA00818771 /* Info.plist */,
+			);
+			path = "AloneDailyQuest-QuestTestUI";
+			sourceTree = "<group>";
+		};
+		99EE2F002B3312F700818771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99EE2F032B33134500818771 /* QuestViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		99EE2F012B3312FF00818771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99EE2F052B33135D00818771 /* QuestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99EE2F022B33130500818771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99EE2F072B33136A00818771 /* Quest.swift */,
+				99EE2F092B33137500818771 /* QuestListManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EE2EE82B3312B800818771 /* AloneDailyQuest-QuestTestUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE2EFD2B3312BA00818771 /* Build configuration list for PBXNativeTarget "AloneDailyQuest-QuestTestUI" */;
+			buildPhases = (
+				99EE2EE52B3312B800818771 /* Sources */,
+				99EE2EE62B3312B800818771 /* Frameworks */,
+				99EE2EE72B3312B800818771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AloneDailyQuest-QuestTestUI";
+			productName = "AloneDailyQuest-QuestTestUI";
+			productReference = 99EE2EE92B3312B800818771 /* AloneDailyQuest-QuestTestUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EE2EE12B3312B800818771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					99EE2EE82B3312B800818771 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 99EE2EE42B3312B800818771 /* Build configuration list for PBXProject "AloneDailyQuest-QuestTestUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EE2EE02B3312B800818771;
+			productRefGroup = 99EE2EEA2B3312B800818771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EE2EE82B3312B800818771 /* AloneDailyQuest-QuestTestUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EE2EE72B3312B800818771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE2EF92B3312BA00818771 /* LaunchScreen.storyboard in Resources */,
+				99EE2EF62B3312BA00818771 /* Assets.xcassets in Resources */,
+				99EE2EF42B3312B800818771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EE2EE52B3312B800818771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE2EF12B3312B800818771 /* ViewController.swift in Sources */,
+				99EE2F0A2B33137500818771 /* QuestListManager.swift in Sources */,
+				99EE2F042B33134500818771 /* QuestViewController.swift in Sources */,
+				99EE2EED2B3312B800818771 /* AppDelegate.swift in Sources */,
+				99EE2F062B33135D00818771 /* QuestView.swift in Sources */,
+				99EE2F082B33136A00818771 /* Quest.swift in Sources */,
+				99EE2EEF2B3312B800818771 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99EE2EF22B3312B800818771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE2EF32B3312B800818771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99EE2EF72B3312BA00818771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE2EF82B3312BA00818771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EE2EFB2B3312BA00818771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EE2EFC2B3312BA00818771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EE2EFE2B3312BA00818771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CKPNKA3V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AloneDailyQuest-QuestTestUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ben.AloneDailyQuest-QuestTestUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99EE2EFF2B3312BA00818771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CKPNKA3V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AloneDailyQuest-QuestTestUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ben.AloneDailyQuest-QuestTestUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EE2EE42B3312B800818771 /* Build configuration list for PBXProject "AloneDailyQuest-QuestTestUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE2EFB2B3312BA00818771 /* Debug */,
+				99EE2EFC2B3312BA00818771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE2EFD2B3312BA00818771 /* Build configuration list for PBXNativeTarget "AloneDailyQuest-QuestTestUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE2EFE2B3312BA00818771 /* Debug */,
+				99EE2EFF2B3312BA00818771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EE2EE12B3312B800818771 /* Project object */;
+}
