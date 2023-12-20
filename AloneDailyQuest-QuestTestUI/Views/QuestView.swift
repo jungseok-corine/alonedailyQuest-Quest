@@ -8,8 +8,14 @@
 import UIKit
 
 class QuestView: UIView {
-    // MARK: - 변수 설정
+    // MARK: - UI 구현
 
+    var profileView: UIView = {
+        let profileView = UIView()
+        profileView.translatesAutoresizingMaskIntoConstraints = false
+        profileView.layer.backgroundColor = UIColor(red: 1, green: 0.941, blue: 0.859, alpha: 1).cgColor
+        return profileView
+    }()
     
     
     
@@ -29,6 +35,29 @@ class QuestView: UIView {
     
     func makeUI() {
         
+        
+
     }
 
+    
+    // MARK: - 오토레이아웃 설정
+    
+    func setupProfileConstraints() {
+        NSLayoutConstraint.activate([
+            profileView.heightAnchor.constraint(equalToConstant: 100),
+            profileView.widthAnchor.constraint(equalToConstant: 390),
+            profileView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
+            profileView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 20)
+        ])
+        
+        
+        
+    }
+
+    
+    
+    
+    
+    
+    
 }
