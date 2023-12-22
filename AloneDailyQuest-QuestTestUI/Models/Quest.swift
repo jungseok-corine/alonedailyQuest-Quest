@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct Quest {
+    var questTitle : String?
+    var questDetail : String?
+}
