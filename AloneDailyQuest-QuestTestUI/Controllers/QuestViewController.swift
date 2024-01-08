@@ -68,12 +68,13 @@ class QuestViewController: UIViewController {
         return view
     }()
     
-    let stackView: UIStackView = {
-        let stview = UIStackView(arrangedSubviews: [profileImage, nameLabel, profileName, levelLabel, profileLevel])
+    lazy var stackView: UIStackView = {
+        let stview = UIStackView()
         stview.spacing = 20
         stview.axis = .horizontal
-        stview.distribution = .fill
+        stview.distribution = .fillEqually
         stview.alignment = .fill
+        [self.profileImage, self.nameLabel, self.profileName, self.levelLabel, self.profileLevel].forEach { stview.addArrangedSubview($0) }
         stview.translatesAutoresizingMaskIntoConstraints = false
         return stview
     }()
@@ -83,6 +84,7 @@ class QuestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 0.22, green: 0.784, blue: 0.784, alpha: 1)
+        
         
         setupNaviBar()
         setupQuestViewConstraints()
@@ -113,10 +115,19 @@ class QuestViewController: UIViewController {
 //        plusButton.tintColor = .black
 //        navigationItem.rightBarButtonItem = plusButton
         
-        
-
     }
    
+    // 프로필뷰 오토레이아웃
+    func profileViewConstraints() {
+        view.addSubview(stackView)
+        NSLayoutConstraint.activate([
+            stackView.heightAnchor.constraint(equalToConstant: 26),
+            profileImage.topAnchor.constraint(equalTo: stackView.topAnchor, constant: 0)
+        ])
+    }
+    
+    
+    
     // 테이블뷰 자체의 오토레이아웃
     func setupQuestViewConstraints() {
         view.addSubview(questView)

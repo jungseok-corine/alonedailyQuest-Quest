@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990F92F32B4C061C00F175C7 /* Quest+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F92F12B4C061C00F175C7 /* Quest+CoreDataClass.swift */; };
+		990F92F42B4C061C00F175C7 /* Quest+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F92F22B4C061C00F175C7 /* Quest+CoreDataProperties.swift */; };
+		990F92F62B4C06B000F175C7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F92F52B4C06B000F175C7 /* CoreDataManager.swift */; };
+		9989F9522B48EF0C00F90E73 /* QuestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9989F9502B48EF0C00F90E73 /* QuestModel.xcdatamodeld */; };
 		99EE2EED2B3312B800818771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EEC2B3312B800818771 /* AppDelegate.swift */; };
 		99EE2EEF2B3312B800818771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EEE2B3312B800818771 /* SceneDelegate.swift */; };
 		99EE2EF12B3312B800818771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2EF02B3312B800818771 /* ViewController.swift */; };
@@ -15,11 +19,13 @@
 		99EE2EF92B3312BA00818771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EE2EF72B3312BA00818771 /* LaunchScreen.storyboard */; };
 		99EE2F042B33134500818771 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F032B33134500818771 /* QuestViewController.swift */; };
 		99EE2F062B33135D00818771 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F052B33135D00818771 /* QuestView.swift */; };
-		99EE2F082B33136A00818771 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F072B33136A00818771 /* Quest.swift */; };
-		99EE2F0A2B33137500818771 /* QuestListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE2F092B33137500818771 /* QuestListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990F92F12B4C061C00F175C7 /* Quest+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quest+CoreDataClass.swift"; sourceTree = "<group>"; };
+		990F92F22B4C061C00F175C7 /* Quest+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quest+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		990F92F52B4C06B000F175C7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9989F9512B48EF0C00F90E73 /* QuestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuestModel.xcdatamodel; sourceTree = "<group>"; };
 		99EE2EE92B3312B800818771 /* AloneDailyQuest-QuestTestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AloneDailyQuest-QuestTestUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE2EEC2B3312B800818771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99EE2EEE2B3312B800818771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +36,6 @@
 		99EE2EFA2B3312BA00818771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99EE2F032B33134500818771 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
 		99EE2F052B33135D00818771 /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
-		99EE2F072B33136A00818771 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
-		99EE2F092B33137500818771 /* QuestListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				99EE2EF52B3312BA00818771 /* Assets.xcassets */,
 				99EE2EF72B3312BA00818771 /* LaunchScreen.storyboard */,
 				99EE2EFA2B3312BA00818771 /* Info.plist */,
+				9989F9502B48EF0C00F90E73 /* QuestModel.xcdatamodeld */,
 			);
 			path = "AloneDailyQuest-QuestTestUI";
 			sourceTree = "<group>";
@@ -97,8 +102,9 @@
 		99EE2F022B33130500818771 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				99EE2F072B33136A00818771 /* Quest.swift */,
-				99EE2F092B33137500818771 /* QuestListManager.swift */,
+				990F92F12B4C061C00F175C7 /* Quest+CoreDataClass.swift */,
+				990F92F22B4C061C00F175C7 /* Quest+CoreDataProperties.swift */,
+				990F92F52B4C06B000F175C7 /* CoreDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,11 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EE2EF12B3312B800818771 /* ViewController.swift in Sources */,
-				99EE2F0A2B33137500818771 /* QuestListManager.swift in Sources */,
+				9989F9522B48EF0C00F90E73 /* QuestModel.xcdatamodeld in Sources */,
 				99EE2F042B33134500818771 /* QuestViewController.swift in Sources */,
 				99EE2EED2B3312B800818771 /* AppDelegate.swift in Sources */,
 				99EE2F062B33135D00818771 /* QuestView.swift in Sources */,
-				99EE2F082B33136A00818771 /* Quest.swift in Sources */,
+				990F92F32B4C061C00F175C7 /* Quest+CoreDataClass.swift in Sources */,
+				990F92F62B4C06B000F175C7 /* CoreDataManager.swift in Sources */,
+				990F92F42B4C061C00F175C7 /* Quest+CoreDataProperties.swift in Sources */,
 				99EE2EEF2B3312B800818771 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9989F9502B48EF0C00F90E73 /* QuestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9989F9512B48EF0C00F90E73 /* QuestModel.xcdatamodel */,
+			);
+			currentVersion = 9989F9512B48EF0C00F90E73 /* QuestModel.xcdatamodel */;
+			path = QuestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 99EE2EE12B3312B800818771 /* Project object */;
 }
