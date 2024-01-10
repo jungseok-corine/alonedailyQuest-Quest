@@ -50,7 +50,7 @@ final class CoreDataManager {
     }
     
     // MARK: - [CREATE] 코어데이터에 데이터 생성하기
-    func saveQuestData(questText: String?, repeatDayInt: Int64, completion: @escaping () -> Void) {
+    func saveQuestData(questText: String?, monday: Bool, tuesday: Bool, wednesday: Bool, thursday: Bool, friday: Bool, saturday: Bool, sunday: Bool, completion: @escaping () -> Void) {
         // 임시저장소에 있는지 확인
         if let context = context {
             // 임시 저장소에 있는 데이터를 그려줄 형태 파악하기
@@ -59,9 +59,9 @@ final class CoreDataManager {
                 // 임시 저장소에 올라가게 할 객체 만들기 (NSManagedObject ===> QuestData)
                 if let quest = NSManagedObject(entity: entity, insertInto: context) as? Quest {
                     // MARK: - QuestData에 실제 데이터 할당 ⭐️
-                    quest.quest = questText
+                    quest.questTitle = questText
                     quest.date = Date() // 날짜는 저장하는 순간의 날짜로 생성
-                    quest.repeatDay = repeatDayInt
+                    quest.monday = monday
                     
                     if context.hasChanges {
                         do {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B92" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
     <entity name="Quest" representedClassName="Quest" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="friday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="monday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="questDetail" optional="YES" attributeType="String"/>
         <attribute name="questTitle" optional="YES" attributeType="String"/>
         <attribute name="saturday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="sunday" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
